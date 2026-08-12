@@ -1,0 +1,21 @@
+import java.text.ListFormat.Style;
+class main{
+	public static void main(String[] args) {
+		int a=10;
+		int b=20;
+		int c=30;
+		int d=60;
+
+
+
+
+	if (a<b && a<c && a<d)   {
+	System.out.println(a);}
+	     else if(b<c && b<d  && b<a){
+	System.out.println(b);}
+		 else if(c<d && c<a && c<b){
+	System.out.println(c);}
+		 else if (d<a){
+	System.out.println(d);}
+		}
+	}
